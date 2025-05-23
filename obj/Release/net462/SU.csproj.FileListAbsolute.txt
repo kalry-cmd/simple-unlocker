@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\bin\Release\net462\SU.exe.config
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\bin\Release\net462\SU.exe
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\bin\Release\net462\SU.pdb
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\bin\Release\net462\ionic.zip.dll
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\bin\Release\net462\log4net.dll
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.Forms.TaskManager.resources
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.Forms.About.resources
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.Properties.Resources.resources
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.csproj.Up2Date
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.exe
+C:\Users\Admin\Desktop\simpleunlocker_release\SU-decompressed-resources\obj\Release\net462\SU.pdb

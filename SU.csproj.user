@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="SU.Forms.Startup\TaskAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms.TaskMgr\AntiGDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms.TaskMgr\Run.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms.UR\AssociationBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms.UR\AssociationEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms.UR\FileTypeBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms.UR\FileTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\AutorunView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\MBRBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\OtherSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\TaskManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SU.Forms\UnblockRestriction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="SU.Forms.TaskManager.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

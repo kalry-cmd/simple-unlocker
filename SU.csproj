@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SU</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.costura.pdb.compressed" />
+    <None Remove="costura.ionic.zip.dll.compressed" />
+    <None Remove="costura.log4net.dll.compressed" />
+    <None Remove="costura.system.net.http.dll.compressed" />
+    <None Remove="costura.system.runtime.dll.compressed" />
+    <None Remove="costura.system.runtime.extensions.dll.compressed" />
+    <None Remove="costura.system.runtime.interopservices.runtimeinformation.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.algorithms.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.encoding.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.primitives.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.x509certificates.dll.compressed" />
+    <None Remove="costura.system.xml.readerwriter.dll.compressed" />
+    <None Remove="costura.metadata" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.ionic.zip.dll.compressed" LogicalName="costura.ionic.zip.dll.compressed" />
+    <EmbeddedResource Include="costura.log4net.dll.compressed" LogicalName="costura.log4net.dll.compressed" />
+    <EmbeddedResource Include="costura.system.net.http.dll.compressed" LogicalName="costura.system.net.http.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.dll.compressed" LogicalName="costura.system.runtime.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.extensions.dll.compressed" LogicalName="costura.system.runtime.extensions.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.interopservices.runtimeinformation.dll.compressed" LogicalName="costura.system.runtime.interopservices.runtimeinformation.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.algorithms.dll.compressed" LogicalName="costura.system.security.cryptography.algorithms.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.encoding.dll.compressed" LogicalName="costura.system.security.cryptography.encoding.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.primitives.dll.compressed" LogicalName="costura.system.security.cryptography.primitives.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.x509certificates.dll.compressed" LogicalName="costura.system.security.cryptography.x509certificates.dll.compressed" />
+    <EmbeddedResource Include="costura.system.xml.readerwriter.dll.compressed" LogicalName="costura.system.xml.readerwriter.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" LogicalName="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip" />
+    <Reference Include="System.Management" />
+    <Reference Include="log4net" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SU.Forms.TaskManager.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SU.Forms.TaskManager.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SU.Properties.Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SU.Properties.Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SU.Forms.TaskManager.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SU.Forms.TaskManager.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SU.Properties.Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SU.Properties.Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
